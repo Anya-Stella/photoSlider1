@@ -10,7 +10,7 @@
     overflow: hidden;
     
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 }
 .controls{
     margin: 2rem auto 0 auto;
@@ -20,7 +20,7 @@
     display: none;
 }
 .box{
-    height: 20rem;
+    height: 25rem;
     width: auto;
 }
 
