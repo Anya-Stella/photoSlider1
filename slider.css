@@ -1,0 +1,59 @@
+#target{
+    margin: 5rem;
+}
+
+
+/*要素*/
+.sliderShow{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    
+    margin: 0 auto;
+    width: 50%;
+}
+.controls{
+    margin: 2rem auto 0 auto;
+    width: 5%;
+}
+.slider-data{
+    display: none;
+}
+.box{
+    height: 20rem;
+    width: auto;
+}
+
+
+/*ツール*/
+.full-width{
+    width: 100%;
+}
+
+
+/*animation*/
+.depleteAnimation{
+    animation: deplete 1s linear forwards;
+}
+.expandAnimation{
+    animation: deplete 1s linear reverse forwards;
+}
+
+@keyframes deplete{
+    0%{
+        width: 100%;
+        opacity: 1;
+    }
+    100%{
+        width: 0%;
+        opacity: 0;
+    }
+}
+
+
+.pictureDiv{
+    width: fit-content;
+    margin: 0 auto;
+
+
+}
